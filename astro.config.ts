@@ -28,9 +28,9 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
-    //optimizeDeps: {
-    //  exclude: ["@resvg/resvg-js"],
-    //},
+    optimizeDeps: {
+      exclude: ["@resvg/resvg-js"],
+    },
     ssr: { // ssr instead of rollupOptions
       external: ['@resvg/resvg-js']
     },
