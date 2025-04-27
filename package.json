@@ -13,6 +13,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.5.1",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.1",
     "@resvg/resvg-js": "^2.6.2",
@@ -40,6 +41,7 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.8.2",
-    "typescript-eslint": "^8.26.1"
+    "typescript-eslint": "^8.26.1",
+    "wrangler": "^4.13.2"
   }
 }
